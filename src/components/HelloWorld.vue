@@ -1,7 +1,7 @@
 <template>
   <h1>{{ msg }}</h1>
 
-  <p>
+  <p class="text-green-400">
     <a href="https://vitejs.dev/guide/features.html" target="_blank">
       Vite Documentation
     </a>
@@ -29,7 +29,4 @@ const state = reactive({ count: 0 })
 </script>
 
 <style scoped>
-a {
-  color: #42b983;
-}
 </style>
